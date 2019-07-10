@@ -130,14 +130,14 @@ function LinkedList() {
 
 } 
 
-var conga = new LinkedList();
-conga.add('Kitten');
-conga.add('Puppy');
-conga.add('Dog');
-conga.add('Cat');
-conga.add('Fish');
-console.log(conga.size());
-console.log(conga.removeAt(3));
-console.log(conga.elementAt(3));
-console.log(conga.indexOf('Puppy'));
-console.log(conga.size());
+var goc = new LinkedList();
+goc.add('Kitten');
+goc.add('Puppy');
+goc.add('Dog');
+goc.add('Cat');
+goc.add('Fish');
+console.log(goc.size());
+//console.log(goc.removeAt(3));
+console.log(goc.elementAt(3));
+console.log(goc.indexOf('Puppy'));
+console.log(goc.size());
